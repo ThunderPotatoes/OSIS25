@@ -1,0 +1,41 @@
+.container-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 20, 133);
+  padding: .5rem
+}
+
+.title {
+  font-family: 'Sono', Arial, sans-serif;
+  font-size: 2rem;
+  flex-shrink: 0;
+  font-weight: bold;
+  color: rgb(255, 97, 121)
+}
+
+.time-period, .school {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-size: 1.5rem;
+  font-family: Lato;
+  color: whitesmoke
+}
+
+.school{
+  margin-right: 1rem;
+}
+
+.right-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pelitaLogo{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 5rem;
+}
+

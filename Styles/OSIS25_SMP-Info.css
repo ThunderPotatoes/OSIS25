@@ -1,0 +1,131 @@
+.calons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem 0 5rem 0;
+}
+
+.pictureSatu, .pictureDua, .pictureTiga, .pictureEmpat{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 30rem;
+  object-fit: cover;
+}
+
+.popup{
+  background-color: lightcoral;
+  width: 250px;
+  padding: .75rem .75rem;
+  box-shadow: 2px 2px 15px rgb(227, 255, 103);
+  border-radius: 6px;
+  position: absolute;
+  top: 25.5rem;
+  z-index: 300;
+  opacity: 1;
+  pointer-events: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: opacity 0.15s;
+  font-family: "Roboto";
+  color: black;
+  font-weight: bold;
+}
+
+.namePopUp {
+  opacity: 0;
+  position: absolute;
+  padding: .75rem .75rem;
+  border-radius: .375rem;
+  transition: opacity 0.15s;
+  top: -3.375rem;
+  left: 3.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: rgb(152, 255, 18);
+  box-shadow: 2px 2px 15px lightcoral;
+}
+
+.popName {
+  font-family: "Lato";
+  font-weight: bolder;
+}
+
+.container-popup:hover .namePopUp {
+  opacity: 1;
+}
+
+.container-popup {
+  position: relative;
+  cursor: pointer;
+}
+
+
+.nameOne, .nameTwo, .nameThree, .nameFour {
+  font-size: 1.1rem;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addVotes, .removeVotes{
+  flex: 1;
+  margin: 2rem 2rem 1rem 2rem;
+  padding: .7rem 0 .7rem 0;
+  border-radius: 1rem; 
+  border: 3px solid black;
+  font-size: 1rem;
+  font-family: "Lato";
+  cursor: pointer;
+  box-shadow: 3px 3px 5px lightcoral;
+  background-color: bisque;
+  font-weight: bold;
+}
+
+.addVotes:hover{
+  box-shadow: 8px 8px 5px lightgreen;
+  transition: .5s;
+}
+
+.removeVotes:hover{
+  box-shadow: 8px 8px 5px rgb(196, 67, 255);
+  transition: box-shadow .5s;
+}
+
+.count-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.countOne, .countTwo, .countThree, .countFour {
+  font-size: 6rem;
+  font-family: "Hi Melody";
+}
+
+.clear-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearAll{
+  flex: 1;
+  margin: 2rem;
+  padding: .7rem 0 .7rem 0;
+  border-radius: 1rem; 
+  border: 3px solid black;
+  font-size: 1rem;
+  font-family: "Lato";
+  cursor: pointer;
+  box-shadow: 3px 3px 5px lightgreen;
+  background-color: rgba(255, 85, 150, 0.685);
+  font-weight: bold;
+}
